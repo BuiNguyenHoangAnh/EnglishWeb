@@ -1,0 +1,23 @@
+/* header */
+.banner {
+    width: auto;
+    background-color: brown;
+}
+.menu {
+    width: auto;
+    background-color: blue;
+}
+/* ---------- */
+
+/* container of content */
+.container {
+    align-self: center;
+}
+/* -----------*/
+
+/* footer */
+footer {
+    background-color: aqua;
+    text-align: center;
+}
+/* -----------*/
