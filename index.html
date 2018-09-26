@@ -7,6 +7,8 @@
 
         <!-- bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
         <!-- css -->
         <link href="css/style.css" rel="stylesheet"/>
@@ -20,25 +22,35 @@
             <img src="images/banner.png" alt="banner" title="English For Kids">
         </div>
         <!-- menu -->
-        <div class="menu navbar navbar-expand-sm bg-success navbar-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Vocabulary</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Fairy Tale</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Game</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
-                </li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <a class="navbar-brand" href="#">Home</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vocabulary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fairy Tale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+            <script>
+                $('.navbar-nav>li>a').on('click', function(){
+                    $('.navbar-collapse').collapse('hide');
+                });
+            </script>
+        </nav>
         <!-- header ends here -->
 
         <!-- overview starts here -->
