@@ -8,6 +8,11 @@ import { BannerComponent } from './banner/banner.component';
   declarations: [FooterComponent, HeaderComponent, BannerComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    HeaderComponent,
+    FooterComponent,
+    BannerComponent
   ]
 })
 export class TemplatesModule { }

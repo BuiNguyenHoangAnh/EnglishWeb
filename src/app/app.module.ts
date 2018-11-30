@@ -13,7 +13,7 @@ import { ViewssRoutingModule } from './views/views-routing.module'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ViewssRoutingModule
+    // ViewssRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
