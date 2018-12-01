@@ -16,13 +16,13 @@ import { ViewssRoutingModule } from './../views/views-routing.module';
   declarations: [ViewsComponent],
   imports: [
     CommonModule,
+    ViewssRoutingModule,
     HomeModule,
     VocabularyModule,
     GameModule,
     StoryModule,
     HelpModule,
-    TemplatesModule,
-    ViewssRoutingModule
+    TemplatesModule
   ]
 })
 export class ViewsModule { }

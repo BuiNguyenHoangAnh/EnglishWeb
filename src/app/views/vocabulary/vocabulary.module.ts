@@ -7,6 +7,9 @@ import { VocabularyComponent } from './vocabulary.component';
   declarations: [ VocabularyComponent ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    VocabularyComponent
   ]
 })
 export class VocabularyModule { }

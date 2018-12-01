@@ -11,16 +11,16 @@ const routes: Routes = [{
   path: '',
   component: ViewsComponent,
   children: [{
-    path: 'app-game',
+    path: 'game',
     component: GameComponent,
   }, {
-    path: 'app-help',
+    path: 'help',
     component: HelpComponent,
   }, {
-    path: 'app-home',
+    path: 'home',
     component: HomeComponent,
   }, {
-    path: 'app-story',
+    path: 'story',
     component: StoryComponent,
   }],
 }];

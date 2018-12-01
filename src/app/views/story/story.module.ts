@@ -7,6 +7,9 @@ import { StoryComponent } from './story.component';
   declarations: [ StoryComponent ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    StoryComponent
   ]
 })
 export class StoryModule { }

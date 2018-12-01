@@ -7,6 +7,9 @@ import { HelpComponent } from './help.component';
   declarations: [ HelpComponent ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    HelpComponent
   ]
 })
 export class HelpModule { }
