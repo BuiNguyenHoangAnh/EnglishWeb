@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home.component';
+import { TemplatesModule } from './../../templates/templates.module';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -10,6 +11,7 @@ import { from } from 'rxjs';
   imports: [
     CommonModule,
     RouterModule,
+    TemplatesModule
   ],
   exports: [
     HomeComponent
