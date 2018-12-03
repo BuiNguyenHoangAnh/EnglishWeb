@@ -11,6 +11,7 @@ import { HelpModule } from './help/help.module';
 import { TemplatesModule } from './../templates/templates.module';
 
 import { ViewssRoutingModule } from './../views/views-routing.module';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [ViewsComponent],
