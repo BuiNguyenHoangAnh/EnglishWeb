@@ -21,4 +21,9 @@ ul {
 }
 #content {
     color: green;
+    padding-top: 2em;
+}
+
+#content ul {
+    list-style-type: circle;
 }
