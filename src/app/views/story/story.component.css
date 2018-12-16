@@ -1,5 +1,8 @@
 button {
     margin-left: 1em;
+    border-radius: 20px;
+    background-color: lightgreen;
+    border-color: green;
 }
 
 .row {
@@ -9,4 +12,8 @@ button {
 
 .container {
     color: green;
+}
+
+hr {
+    max-width: 20em;
 }

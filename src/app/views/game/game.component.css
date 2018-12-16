@@ -1,5 +1,8 @@
 button {
     margin-left: 1em;
+    border-radius: 20px;
+    background-color: lightgreen;
+    border-color: green;
 }
 
 .guideGame h2 {
@@ -18,4 +21,13 @@ button {
     border-radius: 20%;
     margin-left: 2em;
     margin-right: 2em;
+}
+
+h3 {
+    color: green;
+    text-align: center;
+}
+
+hr {
+    max-width: 20em;
 }

@@ -81,4 +81,16 @@
 
 button {
     margin-left: 1em;
+    border-radius: 20px;
+    background-color: lightgreen;
+    border-color: green;
+}
+
+h3 {
+    color: green;
+    text-align: center;
+}
+
+hr {
+    max-width: 20em;
 }
