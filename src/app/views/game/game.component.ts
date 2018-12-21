@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, AfterViewInit} from "@angular/core";
+import "./TemplateData/style.css";
 
-@Component({
-  selector: 'app-game',
-  templateUrl: './game.component.html',
-  styleUrls: ['./game.component.css']
-})
-export class GameComponent implements OnInit {
+import {UnityProgress} from "./TemplateData/UnityProgress.js";
+import {UnityLoader} from "./Build/UnityLoader.js";
 
-  constructor() { }
+@Component({selector: "app-game", templateUrl: "./game.component.html", styleUrls: ["./game.component.css"]})
+export class GameComponent implements AfterViewInit {
+    private gameInstance : any;
 
-  ngOnInit() {
-  }
+    private gameObj = UnityLoader;
 
+    constructor() {}
+
+    ngAfterViewInit() {
+        this.gameInstance = UnityLoader
+            .instantiate("gameContainer", "./Build/New folder.json", {onProgress: UnityProgress});
+    }
 }

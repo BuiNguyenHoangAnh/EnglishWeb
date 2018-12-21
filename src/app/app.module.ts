@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 
 import { VocabularyService } from './services/vocabulary.service';
 import { HttpClientModule } from '@angular/common/http';
-import { UnityLinkerModule } from 'ng-unity';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { UnityLinkerModule } from 'ng-unity';
     AppRoutingModule,
     HttpModule,
     HttpClientModule,
-    UnityLinkerModule
     // ViewssRoutingModule
   ],
   providers: [VocabularyService],

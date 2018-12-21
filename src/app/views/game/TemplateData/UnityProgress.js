@@ -1,4 +1,4 @@
-function UnityProgress(gameInstance, progress) {
+export function UnityProgress(gameInstance, progress) {
   if (!gameInstance.Module)
     return;
   if (!gameInstance.logo) {
