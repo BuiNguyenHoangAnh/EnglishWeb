@@ -1,0 +1,47 @@
+.footer {
+    background-color: #0BEB0B;
+}
+
+.footer .logo {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.footer .imgLogo {
+    max-width: auto;
+    max-height: 200px;
+}
+.footer .contact {
+    float: left;
+    width: 60%;
+}
+.footer hr {
+    background-color: white;
+    height: 2px;
+}
+.footer .container {
+    background-color: rgb(11, 235, 11);
+    color: white;
+    max-height: fit-content;
+    max-width: 100%;
+}
+.fa {
+    padding: 10px;
+    color: #0BEB0B;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.footer .fa-facebook,
+.footer .fa-github,
+.footer .fa-google {
+    background: white;
+    color: rgb(11, 235, 11) !important;
+}

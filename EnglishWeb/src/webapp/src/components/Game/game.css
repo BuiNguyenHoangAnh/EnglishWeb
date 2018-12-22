@@ -1,0 +1,33 @@
+.game button {
+    margin-left: 1em;
+    border-radius: 20px;
+    background-color: lightgreen;
+    border-color: green;
+}
+
+.game .guideGame h2 {
+    text-align: center;
+}
+
+.game .guideGame p {
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.game .guideGame {
+    color: green;
+    border: 0.02em solid;
+    border-radius: 20%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.game h3 {
+    color: green;
+    text-align: center;
+}
+
+.game hr {
+    max-width: 20em;
+}

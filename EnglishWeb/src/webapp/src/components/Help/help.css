@@ -1,0 +1,17 @@
+.help h2 {
+    text-align: center;
+    color: green;
+}
+.help p {
+    color: green;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: justify;
+}
+.help div {
+    border: 0.1em solid;
+    border-color: greenyellow;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 20%;
+}

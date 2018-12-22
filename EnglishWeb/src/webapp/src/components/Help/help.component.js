@@ -1,0 +1,51 @@
+import React, {Component} from 'react';
+import './help.css';
+
+class Help extends Component {
+
+    render() {
+        return (
+            <React.Fragment>
+                <div className="help">
+                    <br/>
+
+                    <div>
+                        <h2>Introduction</h2>
+                        <p>
+                            English for Kids is a webpage to help children learn English. We have a lot of
+                            new words in some topic such as Family, Flowers, Universe, Fruits, Animals and
+                            so on. In addition, we have some game to help children relax and review
+                            vocabulary. Finally, our web have Short Story topic that help children improve
+                            their listening skill.
+                        </p>
+                    </div>
+
+                    <br/>
+                    <br/>
+
+                    <div>
+                        <h2>Guide</h2>
+                        <p>
+                            At homepage, you click on 'Start here' or select on menu bar.
+                        </p>
+                        <p>
+                            Vocabulary view, you can choose topic's vocabulary and learn new words with
+                            photos and sounds.
+                        </p>
+                        <p>
+                            Game view, there are some game in there. You can choose game that you like it
+                            and play it.
+                        </p>
+                        <p>
+                            Short Story view, it is similar with Game view so that you can choose story to
+                            listen or read it.
+                        </p>
+                    </div>
+                    <br/>
+                </div>
+            </React.Fragment>
+        );
+    }
+}
+
+export default Help;
