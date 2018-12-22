@@ -1,11 +1,11 @@
-.selectedTopic{
+.selectedTopic {
     /* padding-left: 20px; */
     align-items: center;
     /* margin: 10px; */
     height: auto;
-    
+
 }
-#btnVocabulary{
+#btnVocabulary {
     display: inline-block;
     width: 170px;
     background-color: #49D749;
@@ -16,7 +16,7 @@
     border-radius: 10px;
 }
 
-#btnTopic{
+#btnTopic {
     display: inline-block;
     width: 140px;
     padding: 7px 10px;
@@ -27,54 +27,51 @@
     font-size: 20px;
     margin-left: 5px;
 }
-
-#btnVocabulary:hover,
-#btnTopic:hover{
+#btnTopic:hover,
+#btnVocabulary:hover {
     text-decoration: none;
     opacity: 0.5;
 }
 
-.vocabulary{
+.vocabulary {
     margin-top: 30px;
 }
-.vocabulary img{
+.vocabulary img {
     width: 100%;
     height: auto;
 }
 
-.vocabulary figure{
+.vocabulary figure {
     display: block;
     border: 5px solid green;
     padding: 5px;
     position: relative;
 }
 
-.vocabulary figure figcaption{
+.vocabulary figure figcaption {
     display: block;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: #0099FF;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     color: white;
     text-align: center;
     transition: 1s;
     opacity: 0;
 }
 
-.word{
-    margin: auto;
-    margin-top: 80px;
+.word {
+    margin: 80px auto auto;
     font-size: 25px;
     font-weight: 700;
 }
 
-.noted{
+.noted {
     font-size: 13px;
 }
-
-.vocabulary figure figcaption:hover{
+.vocabulary figure figcaption:hover {
     cursor: pointer;
     opacity: 1;
 }
@@ -95,20 +92,31 @@ hr {
     max-width: 20em;
 }
 
-.grid{
+.grid {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
 
 .column {
-flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-  height: fit-content;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    height: fit-content;
 }
 
-.column img{
+.column img {
     margin-top: 8px;
     vertical-align: middle;
+}
+
+.vocabulary-card img {
+    background-color: transparent !important;
+}
+.vocabulary-card:hover {
+    cursor: pointer;
+    margin-top: -2px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
 }

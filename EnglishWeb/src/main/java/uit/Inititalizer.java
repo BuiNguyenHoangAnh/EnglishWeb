@@ -25,39 +25,38 @@ public class Inititalizer implements CommandLineRunner {
 
 	@Autowired
 	private TopicRepository topicRepository;
-	
+
 	@Autowired
 	private VocabularyRepository vocabularyRepository;
-	
+
 	private static final boolean FLAG = false;
-	
+
 	@Override
 	public void run(String... args) throws Exception {
 
-		if(FLAG) {
+		if (FLAG) {
 			Workbook workBook = WorkbookFactory.create(new File(PATH));
 
-			for(Sheet sheet : workBook) {
+			for (Sheet sheet : workBook) {
 				Topic topic = new Topic(sheet.getSheetName());
 				topicRepository.save(topic);
-				
-				for(Row row : sheet) {
-					
+
+				for (Row row : sheet) {
+
 					List<String> tempList = new ArrayList<>();
 					for (Cell cell : row) {
 						tempList.add(cell.toString());
 					}
-					
+
 					Vocabulary voc = new Vocabulary(topic, tempList.get(0), tempList.get(1));
 					vocabularyRepository.save(voc);
 				}
 			}
-			
+
 			System.out.println("Lưu dữ liệu thành công");
-			
-				
+
 		}
-		
+
 	}
 
 }
