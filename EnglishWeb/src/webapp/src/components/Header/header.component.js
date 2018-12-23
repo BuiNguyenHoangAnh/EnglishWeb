@@ -9,6 +9,8 @@ import {
     NavLink
 } from 'reactstrap';
 
+import {Link} from 'react-router-dom';
+
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -27,6 +29,10 @@ class Header extends Component {
         });
     }
 
+    reload = () => {
+        window.location.reload();
+    }
+
     render() {
         return (
 
@@ -37,16 +43,25 @@ class Header extends Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="#">Vocabulary</NavLink>
+
+                                <NavLink onClick={this.reload}>
+                                    <Link to="/vocabulary">Vocabulary</Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">Short Story</NavLink>
+                                <NavLink onClick={this.reload}>
+                                    <Link to="/short-story">Short Story</Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">Game</NavLink>
+                                <NavLink onClick={this.reload}>
+                                    <Link to="/game">Game</Link>
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">Help</NavLink>
+                                <NavLink onClick={this.reload}>
+                                    <Link to="/help">Help</Link>
+                                </NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

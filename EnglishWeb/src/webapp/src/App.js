@@ -8,6 +8,10 @@ import Footer from './components/Footer/footer.component';
 import Vocabulary from './components/Vocabulary/vocabulary.component';
 import Help from './components/Help/help.component';
 import Game from './components/Game/game.component';
+import ShortStory from './components/ShortStory/short-story.component';
+import GameCa from './components/game-ca/GameCa';
+import GameKiemChu from './components/game-kiem-chu/GameKiemChu';
+import GameABC from './components/game-abc/GameABC';
 
 
 class App extends Component {
@@ -22,6 +26,10 @@ class App extends Component {
                     <Route path='/vocabulary' component={Vocabulary}/>
                     <Route path='/help' component={Help}/>
                     <Route path='/game' component={Game}/>
+                    <Route path='/game-ca' component={GameCa}/>
+                    <Route path='/game-match-word' component={GameKiemChu}/>
+                    <Route path='/game-abc' component={GameABC}/>
+                    <Route path='/short-story' component={ShortStory}/>
                 </Switch>
                 <Footer/>
             </React.Fragment>

@@ -6,19 +6,39 @@ class Vocabulary extends Component {
         super(props);
 
         this.state = {
-            listVocabulary: []
+            listVocabulary: [],
+            topicName: "",
+            listTopic: []
         };
     }
 
     componentDidMount() {
-        this.getVocabularyByTopicId('1');
+        this.getVocabularyByTopicId("1");
+        this.getAllTopic();
     }
 
     getVocabularyByTopicId = async id => {
-        await fetch("vocabulary/get-vocabularies-by-topic-id/1")
+        await fetch("vocabulary/get-vocabularies-by-topic-id/" + id)
             .then(response => response.json())
-            .then(data => this.setState({listVocabulary: data}));
+            .then(data => this.setListVocabulary(data));
     };
+
+    setListVocabulary = (data) => {
+
+        let topicName = data[0].topicName;
+
+        this.setState({listVocabulary: data, topicName: topicName});
+    }
+
+    getAllTopic = async() => {
+        await fetch("vocabulary/get-all-topic")
+            .then(response => response.json())
+            .then(data => this.setState({listTopic: data}));
+    }
+
+    changeListVocabulary = (idTopic) => {
+        this.getVocabularyByTopicId(idTopic);
+    }
 
     render() {
 
@@ -32,7 +52,7 @@ class Vocabulary extends Component {
                         <div className="card" key={index}>
                             <img
                                 className="card-img-top"
-                                src={"/images/Vocabulary/Flowers/" + voc.word + ".png"}
+                                src={"/images/Vocabulary/" + this.state.topicName + "/" + voc.word + ".png"}
                                 alt={voc.word}/>
 
                             <div className="card-body">
@@ -46,17 +66,32 @@ class Vocabulary extends Component {
                 );
             });
 
+        var elmListTopic = this
+            .state
+            .listTopic
+            .map((topic, index) => {
+                return (
+                    <button
+                        type="button"
+                        className="btn btn-secondary"
+                        onClick={() => this.changeListVocabulary(topic.id)}
+                        key={index}>{topic.topicName}</button>
+                );
+            });
+
         console.log(elmVoca);
 
         return (
             <React.Fragment>
                 <br/>
 
-                <div className="selectedTopic" align="center">
-                    <button>topic1</button>
+                <div className="text-center">
+                    <div className="btn-group mx-auto" role="group">
+                        {elmListTopic}
+                    </div>
                 </div>
                 <hr/>
-                <h3>Selected Topic</h3>
+                <h3>{this.state.topicName}</h3>
                 <div className="container-fluid">
                     <div className="row">
                         {elmVoca}

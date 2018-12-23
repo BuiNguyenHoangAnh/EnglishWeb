@@ -5,7 +5,48 @@ import {Link} from 'react-router-dom';
 import './home.css';
 
 class Home extends Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            listTopic: []
+        };
+    }
+
+    componentDidMount() {
+        this.getAllTopic();
+    }
+
+    getAllTopic = async() => {
+        await fetch("vocabulary/get-all-topic")
+            .then(response => response.json())
+            .then(data => this.setState({listTopic: data}));
+    }
+
     render() {
+
+        var listTopic = this
+            .state
+            .listTopic
+            .sort((tp1, tp2) => {
+                if (tp1.topicName > tp2.topicName) {
+                    return 1;
+                } else if (tp1.topicName < tp2.topicName) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            });
+
+        var elmListTopic = listTopic.map((topic, index) => {
+            return (
+                <div key={index}>
+                    <li>{topic.topicName}</li>
+                </div>
+            );
+        });
+
         return (
             <React.Fragment>
 
@@ -20,7 +61,7 @@ class Home extends Component {
                             <br/>
                             <br/>
                             <ul className="row">
-                                <li className="col-md-6" id="vocabularyTab">
+                                <li className="col-md-6" id="vocabularyTab" >
                                     <a>
                                         <Link to="/vocabulary">
                                             <div>
@@ -81,20 +122,33 @@ class Home extends Component {
                                 <h4>Overview</h4>
                             </div>
                             <div id="content">
-                                <ul>
-                                    <li>
-                                        <strong>Number of topics:
-                                        </strong>9</li>
-                                    <hr/>
-                                    <li>
-                                        <strong>Number of vocabularies:
-                                        </strong>90</li>
-                                    <li>
-                                        <strong>Number of stories:
-                                        </strong>2</li>
-                                    <li>
-                                        <strong>Number of games:
-                                        </strong>3</li>
+                                <h5 className="pl-2">A - Z topics: 9</h5>
+                                <ul className="ml-3">
+                                    {elmListTopic}
+                                </ul>
+                                <br/>
+                                <h5 className="pl-2">Game: 3</h5>
+                                <ul className="ml-3">
+                                    <div>
+                                        <li>Game Fish</li>
+                                    </div>
+                                    <div>
+                                        <li>Game ABC</li>
+                                    </div>
+                                    <div>
+                                        <li>Game Match Words</li>
+                                    </div>
+                                </ul>
+
+                                <br/>
+                                <h5 className="pl-2">Short story: 2</h5>
+                                <ul className="ml-3">
+                                    <div>
+                                        <li>Cinderella</li>
+                                    </div>
+                                    <div>
+                                        <li>The Ugly Duckling</li>
+                                    </div>
                                 </ul>
                             </div>
                         </div>

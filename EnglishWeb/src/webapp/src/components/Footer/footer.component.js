@@ -6,20 +6,20 @@ function Footer(props) {
         <div className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="logo">
-                        <span><img className="imgLogo" src="images/logo.png" alt="logo"/></span>
+
+                    <div class="media mx-auto">
+                        <img className="imgLogo" src="images/logo.png" alt="logo"/>
+                        <div className="media-body align-self-center contact ml-5">
+                            <span>
+                                <strong>Contact us:</strong>
+                            </span>
+                            <br/>
+                            <span>Address: University of Information Technology<br/>Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City.</span>
+                            <br/>
+                            <span>Copy right &copy AHA Team</span>
+                        </div>
                     </div>
-                    <div className="contact">
-                        <span>
-                            <strong>Contact us:</strong>
-                        </span>
-                        <br/>
-                        <br/>
-                        <hr/>
-                        <span>Address: University of Information Technology<br/>Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City.</span>
-                        <br/>
-                        <span>Copy right &copy AHA Team</span>
-                    </div>
+
                 </div>
             </div>
         </div>

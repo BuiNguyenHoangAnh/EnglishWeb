@@ -6,6 +6,7 @@ public class VocabularyDto {
 	private String word;
 	private String meaning;
 	private String img;
+	private String topicName;
 	public String getId() {
 		return id;
 	}
@@ -30,6 +31,13 @@ public class VocabularyDto {
 	public void setImg(String img) {
 		this.img = img;
 	}
+	public String getTopicName() {
+		return topicName;
+	}
+	public void setTopicName(String topicName) {
+		this.topicName = topicName;
+	}
 
+	
 	
 }

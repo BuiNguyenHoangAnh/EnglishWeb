@@ -31,3 +31,7 @@
 .game hr {
     max-width: 20em;
 }
+
+.card-game {
+    cursor: pointer;
+}

@@ -47,6 +47,8 @@ public class VocabularyBloImpl implements IVocabularyBlo {
 			vocabularies.forEach(vocabulary -> {
 				VocabularyDto dto = this.convertEntityToVocabularyDto(vocabulary);
 
+				dto.setTopicName(optTopic.get().getTopicName());
+				
 				if (dto != null) {
 
 					vocabularyDtos.add(dto);
