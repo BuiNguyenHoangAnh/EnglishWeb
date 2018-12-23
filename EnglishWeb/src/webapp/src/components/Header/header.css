@@ -1,0 +1,9 @@
+
+.nav-item a {
+    color: #181861;
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+    text-decoration: none !important;
+}

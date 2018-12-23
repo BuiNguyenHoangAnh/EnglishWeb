@@ -5,11 +5,12 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
-    NavLink
+    NavItem
 } from 'reactstrap';
 
 import {Link} from 'react-router-dom';
+
+import './header.css'
 
 class Header extends Component {
     constructor(props) {
@@ -30,7 +31,9 @@ class Header extends Component {
     }
 
     reload = () => {
-        window.location.reload();
+        window
+            .location
+            .reload();
     }
 
     render() {
@@ -44,24 +47,23 @@ class Header extends Component {
                         <Nav className="ml-auto" navbar>
                             <NavItem>
 
-                                <NavLink onClick={this.reload}>
-                                    <Link to="/vocabulary">Vocabulary</Link>
-                                </NavLink>
+                                <Link onClick={this.reload} className=" mr-3" to="/vocabulary">Vocabulary</Link>
+
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={this.reload}>
-                                    <Link to="/short-story">Short Story</Link>
-                                </NavLink>
+
+                                <Link onClick={this.reload} className=" mr-3" to="/short-story">Short Story</Link>
+
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={this.reload}>
-                                    <Link to="/game">Game</Link>
-                                </NavLink>
+
+                                <Link onClick={this.reload} className=" mr-3" to="/game">Game</Link>
+
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={this.reload}>
-                                    <Link to="/help">Help</Link>
-                                </NavLink>
+
+                                <Link onClick={this.reload} className=" mr-3" to="/help">Help</Link>
+
                             </NavItem>
                         </Nav>
                     </Collapse>

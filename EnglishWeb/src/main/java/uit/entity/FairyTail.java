@@ -18,7 +18,8 @@ public class FairyTail implements java.io.Serializable {
 	private static final long serialVersionUID = -400568635219155858L;
 	private Integer idFairyTail;
 	private String body;
-
+	private String title;
+	
 	public FairyTail() {
 	}
 
@@ -46,5 +47,16 @@ public class FairyTail implements java.io.Serializable {
 	public void setBody(String body) {
 		this.body = body;
 	}
+
+	@Column(name = "title", nullable = false, length = 45)
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+	
 
 }

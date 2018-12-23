@@ -12,6 +12,8 @@ import ShortStory from './components/ShortStory/short-story.component';
 import GameCa from './components/game-ca/GameCa';
 import GameKiemChu from './components/game-kiem-chu/GameKiemChu';
 import GameABC from './components/game-abc/GameABC';
+import ShortStoryCinderrella from './components/ShortStoryDetail/short-story-cinderella.component';
+import ShortStoryUglyDuckling from './components/ShortStoryDetail/short-story-ugly-duckling.component';
 
 
 class App extends Component {
@@ -30,6 +32,8 @@ class App extends Component {
                     <Route path='/game-match-word' component={GameKiemChu}/>
                     <Route path='/game-abc' component={GameABC}/>
                     <Route path='/short-story' component={ShortStory}/>
+                    <Route path='/short-story-cinderella' component ={ShortStoryCinderrella}/>
+                    <Route path='/short-story-the-ugly-duckling' component ={ShortStoryUglyDuckling}/>
                 </Switch>
                 <Footer/>
             </React.Fragment>

@@ -61,55 +61,54 @@ class Home extends Component {
                             <br/>
                             <br/>
                             <ul className="row">
-                                <li className="col-md-6" id="vocabularyTab" >
-                                    <a>
-                                        <Link to="/vocabulary">
-                                            <div>
-                                                <img
-                                                    className="chosen"
-                                                    src="images/vocabulary.png"
-                                                    title="Vocabulary"
-                                                    alt="Vocabulary"/>
-                                            </div>
-                                            <br/></Link>
+                                <li className="col-md-6" id="vocabularyTab">
 
-                                    </a>
+                                    <Link to="/vocabulary">
+                                        <div>
+                                            <img
+                                                className="chosen"
+                                                src="images/vocabulary.png"
+                                                title="Vocabulary"
+                                                alt="Vocabulary"/>
+                                        </div>
+                                        <br/></Link>
+
                                 </li>
                                 <li className="col-md-6" id="gameTab">
-                                    <a >
-                                        <Link to="/game">
-                                            <div>
-                                                <img className="chosen" src="images/game.png" title="Game" alt="Game"/>
-                                            </div>
-                                            <br/>
-                                        </Link>
-                                    </a>
+
+                                    <Link to="/game">
+                                        <div>
+                                            <img className="chosen" src="images/game.png" title="Game" alt="Game"/>
+                                        </div>
+                                        <br/>
+                                    </Link>
+
                                 </li>
                                 <li className="col-md-6" id="tellTab">
-                                    <a >
-                                        <Link to="/short-story">
-                                            <div>
-                                                <img
-                                                    className="chosen"
-                                                    src="images/fairytale.png"
-                                                    title="Short Story"
-                                                    alt="Short Story"/>
-                                            </div>
-                                        </Link>
-                                        <br/>
-                                    </a>
+
+                                    <Link to="/short-story">
+                                        <div>
+                                            <img
+                                                className="chosen"
+                                                src="images/fairytale.png"
+                                                title="Short Story"
+                                                alt="Short Story"/>
+                                        </div>
+                                    </Link>
+                                    <br/>
+
                                 </li>
                                 <li className="col-md-6" id="helpTab">
-                                    <a >
-                                        <Link to="/help">
-                                            <div>
 
-                                                <img className="chosen" src="images/help.png" title="Help" alt="Help"/>
+                                    <Link to="/help">
+                                        <div>
 
-                                            </div>
-                                        </Link>
-                                        <br/>
-                                    </a>
+                                            <img className="chosen" src="images/help.png" title="Help" alt="Help"/>
+
+                                        </div>
+                                    </Link>
+                                    <br/>
+
                                 </li>
                             </ul>
                         </div>

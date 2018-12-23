@@ -7,7 +7,7 @@ function Footer(props) {
             <div className="container">
                 <div className="row">
 
-                    <div class="media mx-auto">
+                    <div className="media mx-auto">
                         <img className="imgLogo" src="images/logo.png" alt="logo"/>
                         <div className="media-body align-self-center contact ml-5">
                             <span>
