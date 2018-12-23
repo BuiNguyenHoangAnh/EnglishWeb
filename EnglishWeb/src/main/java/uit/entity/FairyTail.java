@@ -1,5 +1,4 @@
 package uit.entity;
-// Generated Dec 10, 2018 9:07:14 AM by Hibernate Tools 5.1.10.Final
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -23,8 +22,9 @@ public class FairyTail implements java.io.Serializable {
 	public FairyTail() {
 	}
 
-	public FairyTail(String body) {
+	public FairyTail(String body, String title) {
 		this.body = body;
+		this.title = title;
 	}
 
 	@Id
@@ -39,7 +39,7 @@ public class FairyTail implements java.io.Serializable {
 		this.idFairyTail = idFairyTail;
 	}
 
-	@Column(name = "body", nullable = false, length = 65535)
+	@Column(name = "body", nullable = false)
 	public String getBody() {
 		return this.body;
 	}
@@ -48,7 +48,7 @@ public class FairyTail implements java.io.Serializable {
 		this.body = body;
 	}
 
-	@Column(name = "title", nullable = false, length = 45)
+	@Column(name = "title", nullable = false, length = 100)
 	public String getTitle() {
 		return title;
 	}

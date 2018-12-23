@@ -8,7 +8,7 @@ function Footer(props) {
                 <div className="row">
 
                     <div className="media mx-auto">
-                        <img className="imgLogo" src="images/logo.png" alt="logo"/>
+                        <img className="imgLogo" src="http://localhost:3000/images/logo.png" alt="logo"/>
                         <div className="media-body align-self-center contact ml-5">
                             <span>
                                 <strong>Contact us:</strong>

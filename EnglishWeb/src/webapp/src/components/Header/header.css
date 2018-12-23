@@ -1,9 +1,17 @@
 
 .nav-item a {
-    color: #181861;
+    color: white;
 }
 
 .nav-item a:hover {
     cursor: pointer;
     text-decoration: none !important;
+}
+
+.nav {
+    background-color: #0a990a !important;
+}
+
+.nav a{
+    color: white !important;
 }

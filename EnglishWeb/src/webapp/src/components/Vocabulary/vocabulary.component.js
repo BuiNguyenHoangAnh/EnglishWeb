@@ -47,12 +47,12 @@ class Vocabulary extends Component {
             .listVocabulary
             .map((voc, index) => {
                 return (
-                    <div className=" col-3 p-3 vocabulary-card">
+                    <div className=" col-3 p-3 vocabulary-card" key={index}>
 
-                        <div className="card" key={index}>
+                        <div className="card">
                             <img
                                 className="card-img-top"
-                                src={"/images/Vocabulary/" + this.state.topicName + "/" + voc.word + ".png"}
+                                src={"http://localhost:3000/images/Vocabulary/" + this.state.topicName + "/" + voc.img + ".png"}
                                 alt={voc.word}/>
 
                             <div className="card-body">

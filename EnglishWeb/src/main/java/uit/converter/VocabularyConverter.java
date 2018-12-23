@@ -17,7 +17,7 @@ public class VocabularyConverter implements BaseConverter<Vocabulary, Vocabulary
 		dto.setId(entity.getIdVocabulary() + "");
 		dto.setWord(entity.getWord());
 		dto.setMeaning(entity.getMeaning());
-		dto.setImg(entity.getMeaning());
+		dto.setImg(entity.getImgUrl());
 	}
 
 }

@@ -40,7 +40,7 @@ class Header extends Component {
         return (
 
             <React.Fragment>
-                <Navbar color="light" light expand="md">
+                <Navbar light expand="md" className="nav">
                     <NavbarBrand href="/">English for Kids</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
