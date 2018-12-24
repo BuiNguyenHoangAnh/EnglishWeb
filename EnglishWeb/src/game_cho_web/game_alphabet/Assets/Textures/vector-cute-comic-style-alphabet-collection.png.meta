@@ -1,0 +1,894 @@
+fileFormatVersion: 2
+guid: 63601dcbfd558394ba7400f3bc2dcacf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: vector-cute-comic-style-alphabet-collection_0
+    21300002: vector-cute-comic-style-alphabet-collection_1
+    21300004: vector-cute-comic-style-alphabet-collection_2
+    21300006: vector-cute-comic-style-alphabet-collection_3
+    21300008: vector-cute-comic-style-alphabet-collection_4
+    21300010: vector-cute-comic-style-alphabet-collection_5
+    21300012: vector-cute-comic-style-alphabet-collection_6
+    21300014: vector-cute-comic-style-alphabet-collection_7
+    21300016: vector-cute-comic-style-alphabet-collection_8
+    21300018: vector-cute-comic-style-alphabet-collection_9
+    21300020: vector-cute-comic-style-alphabet-collection_10
+    21300022: vector-cute-comic-style-alphabet-collection_11
+    21300024: vector-cute-comic-style-alphabet-collection_12
+    21300026: vector-cute-comic-style-alphabet-collection_13
+    21300028: vector-cute-comic-style-alphabet-collection_14
+    21300030: vector-cute-comic-style-alphabet-collection_15
+    21300032: vector-cute-comic-style-alphabet-collection_16
+    21300034: vector-cute-comic-style-alphabet-collection_17
+    21300036: vector-cute-comic-style-alphabet-collection_18
+    21300038: vector-cute-comic-style-alphabet-collection_19
+    21300040: vector-cute-comic-style-alphabet-collection_20
+    21300042: vector-cute-comic-style-alphabet-collection_21
+    21300044: vector-cute-comic-style-alphabet-collection_22
+    21300046: vector-cute-comic-style-alphabet-collection_23
+    21300048: vector-cute-comic-style-alphabet-collection_24
+    21300050: vector-cute-comic-style-alphabet-collection_25
+    21300052: vector-cute-comic-style-alphabet-collection_26
+    21300054: vector-cute-comic-style-alphabet-collection_27
+    21300056: vector-cute-comic-style-alphabet-collection_28
+    21300058: vector-cute-comic-style-alphabet-collection_29
+    21300060: vector-cute-comic-style-alphabet-collection_30
+    21300062: vector-cute-comic-style-alphabet-collection_31
+    21300064: vector-cute-comic-style-alphabet-collection_32
+    21300066: vector-cute-comic-style-alphabet-collection_33
+    21300068: vector-cute-comic-style-alphabet-collection_34
+    21300070: vector-cute-comic-style-alphabet-collection_35
+    21300072: vector-cute-comic-style-alphabet-collection_36
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 402
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4adfb57cc80e7428f42455b560a2e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 403
+        width: 86
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1e356b306b0b948adb7f82d18da6d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 401
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0482519c092d245bf4d484cc5bae90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 402
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6f15ecf05f24246917234e26116ce8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 402
+        width: 92
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbead0fe9e221dd41952c6e4430221c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 401
+        width: 86
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7279460c3acbb694585f0da355cbee77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 402
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b99b4150a5f08a4b878c7d99cac3fbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 326
+        width: 97
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f1f34a0c9d96841b566e33f6bcab9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 326
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9934003ebf441c42a5d47b9e7273b39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 326
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948f3333da719f74c81c507d42f858f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 326
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3be744f3152a14a9e7918098369165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 326
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a7677c29aac5e4eb0857f443b9a09f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 326
+        width: 112
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ec43f59da09974b8e1e7f6064c6695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 327
+        width: 98
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b988d883c191c043bf26ef5c5ed8898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 251
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb11ed1fec30944b82b66e405b8a5dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 252
+        width: 85
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2254474c2f1c74c950b8fc6766947a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 250
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca344dcc5c99e549903d6e5fb41286c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_17
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 251
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bf2c4d7e517b54d9203772bfa50d8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 251
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad40e62d929f7444292f8adbc378b002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_19
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 251
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e2f6f8ac273e84bac1943b2d1e327c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_20
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 252
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb10debb155ba04bb0c958d55bed320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 175
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ba93ee7593b940ba65efb70e86da9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_22
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 175
+        width: 124
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4e00f2a7b9a3247abfc17cd073d4b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_23
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 176
+        width: 89
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12ea77d74618984c890dfcf4a6d4f7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_24
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 175
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee034921efea67c4297da48c30922d3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_25
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 175
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a792bf06a6da849801a65a8f188958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 100
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc98c06e015cee4b9085c18da14908a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 101
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2858722d05a067343b3ed9c7277af0d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 100
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf025eda451eb9438a4af9bc0283e59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_29
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 102
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270a20fa77432e7409d10d97607ea69b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 102
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7339cfd8047bebc4b85287c24eb81903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_31
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 101
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832f9b8c012f174ab4a809ff6d7f496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_32
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 99
+        width: 84
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56f83d5344fc9d4896cf12ecafdafcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_33
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 100
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6141092dd4139714f9b6c39e5aee2935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 25
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4337f47435074144b99f13a5e62d4b38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_35
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 28
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa53bb05ddc0a1348b614abdc626d133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector-cute-comic-style-alphabet-collection_36
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 31
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0eb5cc3edeefc4fa85482050047e9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: db257df5f48cc204692fd5b91701f75d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

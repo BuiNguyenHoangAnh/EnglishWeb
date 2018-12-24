@@ -47,7 +47,7 @@ class Vocabulary extends Component {
             .listVocabulary
             .map((voc, index) => {
                 return (
-                    <div className=" col-3 p-3 vocabulary-card" key={index}>
+                    <div className=" col-4 p-3 vocabulary-card" key={index}>
 
                         <div className="card">
                             <img
